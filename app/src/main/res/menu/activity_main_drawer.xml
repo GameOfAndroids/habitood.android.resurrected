@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_home_white_24dp"
+            android:title="@string/home"/>
+        <item
+            android:id="@+id/nav_teams"
+            android:title="@string/teams"
+            android:icon="@mipmap/ic_group_white_24dp"/>
+        <item
+            android:id="@+id/nav_pinpoints"
+            android:title="@string/pinpoints"
+            android:icon="@mipmap/ic_pinpoint" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:title="@string/notifications"
+            android:icon="@mipmap/ic_notifications_white_24dp"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_cork_board"
+            android:title="@string/team_cork_board"
+            android:icon="@mipmap/ic_message_white_24dp"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_pinpoint_progress"
+            android:title="@string/pinpoint_progress"
+            android:icon="@mipmap/ic_insert_chart_black_24dp"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/nav_admin_panel"
+            android:title="@string/admin">
+            <menu>
+                <item
+                    android:id="@+id/nav_teams_admin"
+                    android:title="@string/teams_admin"
+                    android:icon="@mipmap/ic_group_white_24dp"/>
+                <item
+                    android:id="@+id/nav_pinpoint_admin"
+                    android:title="@string/pinpoint_admin"
+                    android:icon="@mipmap/ic_pinpoint"/>
+                <item
+                    android:id="@+id/nav_bulk_export"
+                    android:title="@string/bulk_export"
+                    android:icon="@mipmap/cloud_download_black_24"/>
+            </menu>
+        </item>
+
+        <item android:title="@string/configure">
+            <menu>
+                <item
+                    android:id="@+id/menu_settings"
+                    android:title="@string/settings"
+                    android:icon="@mipmap/ic_settings_white_24dp" />
+                <item
+                    android:id="@+id/menu_logout"
+                    android:title="@string/logout"
+                    android:icon="@mipmap/ic_lock_white_24dp"/>
+            </menu>
+        </item>
+
+    </group>
+
+</menu>

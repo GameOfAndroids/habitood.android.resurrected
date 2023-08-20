@@ -1,0 +1,412 @@
+<resources>
+    <string name="app_name" translatable="false">Habitood</string>
+    <string name="title_activity_authentication" translatable="false">Habitood</string>
+    <string name="business_key_prefix" translatable="false">sbc</string>
+    <string name="dash" translatable="false">-</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="action_settings">Settings</string>
+    <string name="auth_failed">Authentication failed&#8230;</string>
+    <string name="acct_creation_failed">Account creation failed&#8230;</string>
+    <string name="creating_acct">Creating account&#8230;</string>
+    <string name="invalid_fields">Invalid entries found.</string>
+    <string name="resend_verification_email">Verification email sent to provided email address. Please verify your email.</string>
+    <string name="email_address">Email Address:</string>
+    <string name="resend">Resend</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="youre_signed_in">You\'re Signed In. Yay!</string>
+    <string name="active_team_pinpoints">Your active team\'s pinpoints:</string>
+    <string name="powered_by">*Powered by %s</string>
+    <string name="login_failed">Login failed.</string>
+    <string name="authenticating">Authenticating&#8230;</string>
+    <string name="email_exists">Email already exists in the system</string>
+    <string name="invalid_email">Enter a valid email address</string>
+    <string name="incorrect_email">Email not found</string>
+    <string name="incorrect_password">Password is incorrect.</string>
+    <string name="incorrect_creds">Email malformed and/or password too short.</string>
+    <string name="nonmatching_passwords">Passwords do not match</string>
+    <string name="recovery_email_sent">Password reset email sent to email address listed above.</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="create_acct">Create an account</string>
+    <string name="create_acct_btn">Create Account</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="email_not_registered">The entered email is not registered.</string>
+    <string name="sending_email">Sending password reset email&#8230;</string>
+    <string name="empty_name">Name may not be blank.</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="biz_email">Business Email</string>
+    <string name="reenter_password">Reenter Password</string>
+    <string name="already_member">Already a member? Login</string>
+    <string name="blank_password">Password may not be blank</string>
+    <string name="business_key">Enter your Company\'s Business Key:</string>
+    <string name="submit">Submit</string>
+    <string name="working">Working&#8230;</string>
+    <string name="no_biz_found">No business found. Please check the business key and try again.</string>
+    <string name="correct_company">Is this the correct company?</string>
+    <string name="confirm">Confirm</string>
+    <string name="confirm_business_label">Confirm Business</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="never_heard_of_them">Never heard of them</string>
+    <string name="title_activity_home_screen">HomeScreenActivity</string>
+    <string name="add_company">Add Your Company</string>
+    <string name="add_team">Create a Team</string>
+    <string name="home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="add_company_to_begin">Add your company to begin.</string>
+    <string name="teams">Teams</string>
+    <string name="my_teams">My Teams</string>
+    <string name="settings">Settings</string>
+    <string name="enter_team_label">Enter a Team Name</string>
+    <string name="leader1_label">Team Leader 1:</string>
+    <string name="leader2_label">Team Leader 2:</string>
+    <string name="team_added">Team Added!</string>
+    <string name="team_exists_already">Error! Team name exists already. Choose another team name.</string>
+    <string name="team_name">Team Name:</string>
+    <string name="core_team_leader_label">Core Team Leader:</string>
+    <string name="secondary_core_team_leader_label">Secondary Team Leader:</string>
+    <string name="join">Join</string>
+    <string name="search">Search</string>
+    <string name="active_team">Active Team:</string>
+    <string name="teams_found">Select a Team from your Teams list to make it active!</string>
+    <string name="tap_to_select_leader">Tap to select Leader</string>
+    <string name="no_network">This is unavailable while there is no internet connectivity.</string>
+    <string name="success_rate">On %s the pinpoint success rate was %s%%</string>
+    <string name="create_date">Create Date:</string>
+    <string name="team_size">Number in Team:</string>
+    <string name="teams_admin">Teams Admin</string>
+    <string name="no_team_found">No Team. Create One!</string>
+    <string name="team_label">Team:</string>
+    <string name="touch_add_photo">Touch here to add a photo</string>
+    <string name="team_members">Team Members:</string>
+    <string name="team_swipe_left">(swipe left to remove from team)</string>
+    <string name="non_team_members">Non-Team Members:</string>
+    <string name="team_swipe_right">(swipe right to add to team)</string>
+    <string name="cannot_remove_leader">Cannot remove assigned core team leader. Action undone.</string>
+    <string name="set_active">Set Active</string>
+    <string name="set_inactive">Set Inactive</string>
+    <string name="error">Error</string>
+    <string name="error_occurred">We\'re sorry, an error occurred. Please try again.</string>
+    <string name="undef_params">Parameters were undefined. Please contact bugs@habitood.com if you see this.</string>
+    <string name="no_users_selected">No users were selected for the operation.</string>
+    <string name="insufficient_seats">Insufficient seats for operation. Please contact bugs@habitood.com if you see this.</string>
+    <string name="add_secondary_leader">You must add a secondary core team leader before you can create a team.</string>
+    <string name="users_marked_active">Users were marked active.</string>
+    <string name="users_count_marked_active">%s User(s) were marked active.</string>
+    <string name="users_count_marked_inactive">%s User(s) were marked inactive.</string>
+    <string name="users_count_removed">%s User(s) were removed from Business.</string>
+    <string name="users_count_rank_changed">The rank was changed on %s user(s).</string>
+    <string name="users_leading_team_error">Users Leading Team Error</string>
+    <string name="users_leading_team_error_msg">Team Leaders who are actively leading a team may not have their rank changed, marked inactive, or removed from the business. Users actively leading:\n</string>
+    <string name="select_new_rank">Select New Rank</string>
+    <string name="pinpoint_admin">Pinpoint Admin</string>
+    <string name="pinpoint_progress">Pinpoint Progress</string>
+    <string name="pinpoints">Pinpoints</string>
+    <string name="team_active_pinpoints">Active Pinpoints for your Team:</string>
+    <string name="view_pinpoints">View All Pinpoints</string>
+    <string name="all_pinpoints">All Pinpoints:</string>
+    <string name="pinpoint_complete">Pinpoint Complete</string>
+    <string name="pinpoint_name">Pinpoint Title:</string>
+    <string name="pinpoint_description">Pinpoint Description:</string>
+    <string name="max_characters">128 Characters Max</string>
+    <string name="blank_pinpoint_name">Pinpoint title may not be blank.</string>
+    <string name="blank_pinpoint_descr">Pinpoint description may not be blank.</string>
+    <string name="no_more_pinpoint_room">3 Pinpoints are already selected for this team. Please remove an active pinpoint and try again.</string>
+    <string name="undo_pinpoint_swipe">Pinpoint removed from team.</string>
+    <string name="undo">UNDO</string>
+    <string name="no_active_team">You have not selected a team to be your "active" team. Please select a team, and its pinpoints will be displayed here.</string>
+    <string name="no_active_team_caps">NO ACTIVE TEAM!</string>
+    <string name="no_pinpoints_assigned">The Core Team Leader has not assigned any pinpoints to this Team.</string>
+    <string name="pinpoint_label">Pinpoint:</string>
+    <string name="pinpoint_exists">Pinpoint with this title already exists.</string>
+    <string name="swipe_left_forgot_pinpoint">Swipe left if pinpoint was overlooked.</string>
+    <string name="swipe_right_completed_pinpoint">Swipe right if pinpoint was completed.</string>
+    <string name="pinpoint_add_to_team_fail">You must be the team leader or secondary team leader of a team to add pinpoints.</string>
+    <string name="notifications">Notifications</string>
+    <string name="notifications_header">Swipe to dismiss a notification.</string>
+    <string name="you_have_notifs">You have </string>
+    <string name="notifs_waiting"> unread Notifications.</string>
+    <string name="frontline_supervisor_label">Frontline Supervisor:</string>
+    <string name="select_sup">Tap to select Supervisor</string>
+    <string name="swipe_to_add_sup">Swipe Right to select a Supervisor.</string>
+    <string name="user_admin">User Admin</string>
+    <string name="users">Users:</string>
+    <string name="refresh">Refresh</string>
+    <string name="rank_not_set">Rank: N/A</string>
+    <string name="not_set">Not Set</string>
+    <string name="frontline_personnel">Front-line Personnel</string>
+    <string name="core_team_leader">Core Team Leader</string>
+    <string name="supervisor">Supervisor</string>
+    <string name="manager">Manager</string>
+    <string name="action_unavailable">This action is unavailable without internet connectivity.</string>
+    <string name="user_name">User Name:</string>
+    <string name="company_rank">Company Rank:</string>
+    <string name="tap_to_change">(Tap to Change)</string>
+    <string name="team_leading">Team Leading:</string>
+    <string name="active_user">Active User:</string>
+    <string name="na">N/A</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="select_rank">Select User\'s Rank:</string>
+    <string name="cannot_change_team_leader_rank">This Core Team Leader is leading a Team. You must remove this person from leadership of the Team before you can change their rank. Team: </string>
+    <string name="operation_failed">Operation Failed</string>
+    <string name="open_team">Open Team</string>
+    <string name="primary_team_leader">Primary Core Team Leader:</string>
+    <string name="secondary_team_leader">Secondary Core Team Leader:</string>
+    <string name="user_removed">User removed from team.</string>
+    <string name="core_team_leaders">Core Team Leaders</string>
+    <string name="team_not_leading_team">The Team Admin section is only available to Core Team Leaders who are actively leading a team.</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_pinpoint_progress">Pinpoint Progress Activity</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="save_to_profile">Save Photo to Profile</string>
+    <string name="message_feed">Message Feed</string>
+    <string name="new_note">New Cork Board Note</string>
+    <string name="new_caps">NEW</string>
+    <string name="messageFirebase">Message:</string>
+    <string name="from_label">From:</string>
+    <string name="date_label">Date:</string>
+    <string name="subject">Subject:</string>
+    <string name="subject_header">Subject</string>
+    <string name="note">Note</string>
+    <string name="post_note">Post Note</string>
+    <string name="shared_message">shared the following message.</string>
+    <string name="likes">%s likes</string>
+    <string name="message_sent">Message sent to all Frontline Supervisor\'s subordinates</string>
+    <string name="select_team">Select a Team</string>
+    <string name="no_notifications">You have no new notifications.</string>
+    <string name="not_on_a_team">You are not currently assigned to a team.</string>
+    <string name="add_team_members">Swipe to add Team Members</string>
+    <string name="swipe_to_select">Swipe right to select core team leader.</string>
+    <string name="no_messages">You have no Cork Board notes at this time.</string>
+    <string name="frontline_sups">Frontline Supervisors</string>
+    <string name="select_photo">Select a Photo</string>
+    <string name="add_profile_photo">Add a Profile Photo</string>
+    <string name="upload_error">An error occurred. Please try again later.</string>
+    <string name="upload_success">Your profile photo was successfully updated!</string>
+    <string name="pinpoints_to_review">Which Pinpoints do you want to review?</string>
+    <string name="users_pinpoints_to_review">Which User do you want to view?</string>
+    <string name="teams_pinpoints_to_review">Which Team do you want to view?</string>
+    <string name="user">User</string>
+    <string name="team">Team</string>
+    <string name="select_one">Select One</string>
+    <string name="pinpoint_data_to_show">Select Pinpoint data to show.. and you\'re done!</string>
+    <string name="select_date_range">Now select a date range.</string>
+    <string name="from">FROM DATE</string>
+    <string name="to">TO DATE</string>
+    <string name="follow">Follow</string>
+    <string name="teams_to_follow">Select the teams you want to follow.</string>
+    <string name="num_pinpoints_recorded">Number of Pinpoints Recorded:</string>
+    <string name="num_pinpoints_recorded_template">%s Pinpoint records were recorded on %s</string>
+    <string name="pinpoint_percentages">Pinpoint Success Percentages</string>
+    <string name="not_enough_seats">There are not enough available active seats for this action. Please contact your Habitood administer regarding this error.</string>
+    <string name="active_users_error">Active Users Error</string>
+    <string name="deactivate_core_team_leader_error">Cannot deactivate a Core Team Leader! This Core Team Leader is currently leading a team.</string>
+    <string name="delete_team">Delete Team</string>
+    <string name="delete_team_explanation">Deleting this team will remove the Core Team Leaders and all users on the team. Additionally the team name will be consumed and unusable in the future. This action cannot be undone. Are you sure?</string>
+    <string name="delete">Delete</string>
+    <string name="deleted">Deleted</string>
+    <string name="show_deleted_teams">Show deleted teams?</string>
+    <string name="teams_explanation">This is where you\'ll find all the teams of which you are a part. To record Team Pinpoints, you must first make the team you want to work with Active.</string>
+    <string name="showing_deleted_teams">Showing deleted teams</string>
+    <string name="hiding_deleted_teams">Hiding deleted teams</string>
+    <string name="admin">Admin</string>
+    <string name="create_pinpoint">Create Pinpoint</string>
+    <string name="configure">Configure</string>
+    <string name="existing_password">Please enter your current password.</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">Please enter your new password.</string>
+    <string name="no_user_found">No user was found. Navigating to login page.</string>
+    <string name="search_returned_no_user">Search returned no user with that email.</string>
+    <string name="search_returned_no_pinpoint">Search returned no pinpoint with that title.</string>
+    <string name="password_change_success">Password was updated successfully!</string>
+    <string name="must_enter_current_password">You must enter your current password.</string>
+    <string name="must_enter_new_password">You must enter a new password.</string>
+    <string name="password_not_strong">Password must be at least 8 characters and contain at least one number.</string>
+    <string name="incorrect_current_password">Current password entered is incorrect. Please try again.</string>
+    <string name="new_posts">New posts</string>
+    <string name="new_post">New post</string>
+    <string name="open_corkboard">Open Cork Board</string>
+    <string name="upload_a_photo">Upload a Profile Photo!</string>
+    <string name="posts">%s Post(s)</string>
+    <string name="team_cork_board">Team Cork Board</string>
+    <string name="download_error">A download error occurred. Please try again.</string>
+    <string name="no_subject">No Subject</string>
+    <string name="delete_cork_board_message">Delete Cork Board Message</string>
+    <string name="delete_message">Are you sure you want to permanently delete this Cork Board Message?</string>
+    <string name="export_graph_data">Export Graph Data</string>
+    <string name="email_subject">Habitood - Pinpoint Reports</string>
+    <string name="send_reports">Send Pinpoint Reports</string>
+    <string name="add_business_error">Add Business Error</string>
+    <string name="add_business_error_msg">This business does not allow users to add themselves to the Habitood application. Please consult your Habitood Administrator for assistance.</string>
+    <string name="user_is_inactive">This is not an active user. Active users cannot be added to a team. Operation aborted.</string>
+    <string name="not_leading_team">You are not leading any team.</string>
+    <string name="name_concat" translatable="false">%s %s</string>
+    <string name="swipe_to_select_ctl">Swipe to select Core Team Leader</string>
+    <string name="team_name_empty_error">Team name may not be empty.</string>
+    <string name="team_leader">Team Leader:</string>
+    <string name="attempt_try_again">Download attempt failed. Try again?</string>
+    <string name="try_again">Try Again</string>
+    <string name="pinpoint_explanation">This is where Team Leaders manage their team\'s Pinpoint objectives.</string>
+    <string name="pinpoint_swipe_left">Swipe left to remove Pinpoint from Team</string>
+    <string name="team_leading_template">Team Leading: %s</string>
+    <string name="add_pinpoints_to_team">Swipe right to add Pinpoint to Team</string>
+    <string name="pinpoint_add_error">Teams may only have 3 Active Pinpoints.</string>
+    <string name="your_active_team_pinpoints">Pinpoints for your active team: %s</string>
+    <string name="pinpoint_download_failed">Pinpoints download failed. Please try again.</string>
+    <string name="teams_download_failed">Teams download failed. Please try again.</string>
+    <string name="successful_pinpoint_heading">Success percentages for Pinpoint:</string>
+    <string name="password_incorrect">Password is incorrect</string>
+    <string name="notif_added_to_team">You were added to a team: %s</string>
+    <string name="notif_pinpoint_complete">Congrats! The Pinpoint, %s, has been marked complete!</string>
+    <string name="notif_pinpoint_added">Lookout! A new pinpoint has been added to the team \'%s\'</string>
+    <string name="pinpoint_added_to_team">Pinpoint was successfully added to team.</string>
+    <string name="business_inactive">Hi! \n\nYour business has decided to end its Habitood usage.\nThis probably means you\'re a safety ninja.\n\nBest Wishes!</string>
+    <string name="habitood_team">~ The Habitood Team</string>
+    <string name="tag_line">Behavior Measurement Simplified</string>
+    <string name="copyright" translatable="false">Copyright &#169; Astutus Software Designs</string>
+    <string name="pinpoint_recorded">Pinpoint recorded!</string>
+    <string name="edit_pinpoint">Edit Pinpoint</string>
+    <string name="pinpoint_description_unchanged">No Pinpoint description change was detected.</string>
+    <string name="pinpoint_update_successful">Pinpoint update was successful.</string>
+    <string name="sup_teams_admin_heading">This is where, as a supervisor, you can find all the teams you follow.</string>
+    <string name="view_team_pinpoints">View Pinpoints</string>
+    <string name="manage_team">Manage Team</string>
+    <string name="unfollow_team">Unfollow Team</string>
+    <string name="rank">Rank</string>
+    <string name="create_team">Create Team</string>
+    <string name="user_overview">User Overview</string>
+    <string name="questions_and_subscriptions">For General Questions and Subscription Information:</string>
+    <string name="bug_text">To report a bug, oddity, or suggest a feature:</string>
+    <string name="info_email" translatable="false">Info@habitood.com</string>
+    <string name="bugs_email" translatable="false">Bugs@habitood.com</string>
+    <string name="no_email_activity">This device is unable to send email.</string>
+    <string name="padlock_content_descr">image of a padlock.</string>
+    <string name="select_date_range_btn">Select Date Range</string>
+    <string name="admin_panel">Admin Panel</string>
+    <string name="business_admin">Business Admin</string>
+    <string name="manage_admins">Manage Admins</string>
+    <string name="business_name">Business Name:</string>
+    <string name="business_id">Business ID:</string>
+    <string name="registered_users">Registered Users:</string>
+    <string name="active_seats_available">Active Seats Available:</string>
+    <string name="active_seats_used">Active Seats Used:</string>
+    <string name="date_created">Date Created:</string>
+    <string name="allow_manual_add">Allow Users to add themselves to business:</string>
+    <string name="active_colon">Active:</string>
+    <string name="active">Active</string>
+    <string name="inactive">Inactive</string>
+    <string name="grouping">User Grouping:</string>
+    <string name="active_users_only">Active Users Only:</string>
+    <string name="inactive_users_only">Inactive Users Only:</string>
+    <string name="group_active_inactive">Group Active and Inactive:</string>
+    <string name="bulk_changes">Bulk Changes:</string>
+    <string name="bulk_export">Bulk Export</string>
+    <string name="mark_users_active">Mark Users Active:</string>
+    <string name="mark_users_inactive">Mark Users Inactive:</string>
+    <string name="mark_active">Mark Active</string>
+    <string name="remove_users_from_business">Remove Users From Business:</string>
+    <string name="remove_users">Remove Users</string>
+    <string name="change_rank_label">Change Rank:</string>
+    <string name="change_rank">Change Rank</string>
+    <string name="section">Section</string>
+    <string name="owner">Owner</string>
+    <string name="no_team_selected">Error! No Team was selected.</string>
+    <string name="add_users_to_team_header">Swipe right to add users to the %s team.</string>
+    <string name="chart_data_null_error">Please make selections in the above required fields.</string>
+    <string name="add_business_admin">Add Admin</string>
+    <string name="remove_bus_admin">Remove Business Admin</string>
+    <string name="remove_bus_admin_msg">Do you want to change the rank of the business admin, %s, to Front-line personnel? Or do you want to remove this individual from the business?</string>
+    <string name="remove_from_business">Remove from Business</string>
+    <string name="add_bus_admin_summary">Search for users to be added to the Business Admin position.</string>
+    <string name="search_outside_business">Search for users not in your Business?</string>
+    <string name="email_search_hint">Search for users by Email (note: case sensitive)</string>
+    <string name="search_for_users">Search for users&#8230;</string>
+    <string name="search_for_users_by_email">Search for users to add to business by email address (case sensitive). This will only find users who have not been added to your business or added to another business.</string>
+    <string name="search_found_no_users">No users were found.</string>
+    <string name="set_as_admin">Set as Business Admin</string>
+    <string name="change_rank_leading_team_err_title">Leading Team Error</string>
+    <string name="change_rank_leading_team_msg">This user is currently leading a team. You cannot change their rank until they have been replaced with a different team leader.</string>
+    <string name="change_rank_success">Successfully changed rank!</string>
+    <string name="invalid_pinpoint_title">Invalid Pinpoint Title</string>
+    <string name="invalid_pinpoint_title_msg">Pinpoint titles may not contain the following characters: |\?*&lt;":>+[]/',.</string>
+    <string name="invalid_team_name">Invalid Team Name</string>
+    <string name="invalid_team_name_msg">Team names may not contain the following characters: |\?*&lt;":>+[]/',.</string>
+    <string name="successfully_added_user">User was successfully added to the business.</string>
+    <string name="title_too_long">Pinpoint Titles must be 34 characters or less.</string>
+    <string name="next">Next</string>
+    <string name="select_teams">Select Teams</string>
+    <string name="select_teams_for_export">Select Teams for Data Export</string>
+    <string name="teams_selected_interpolation">%s Teams selected for export.</string>
+    <string name="select_pinpoints">Select Pinpoints</string>
+    <string name="select_pinpoints_for_export">Select Pinpoints for Data Export</string>
+    <string name="pinpoints_selected_interpolation">%s Pinpoints selected for export.</string>
+    <string name="no_team">No team name</string>
+    <string name="success_reauth">Success! Please re-authenticate.</string>
+    <string name="anonymous_note">Add an anonymous note?</string>
+    <string name="add_note">Add Note to Pinpoint Record?</string>
+    <string name="max_chars_256">256 Chars Max</string>
+    <string name="no_thanks">No Thanks</string>
+    <string name="done">Done</string>
+    <string name="active_users_count">Active Users Count:</string>
+    <string name="business_details">Business Details</string>
+    <string name="users_registered_to_business">Users Registered to Business:</string>
+    <string name="add_user_to_business">Add User to Business</string>
+    <string name="get_export_data">Get Export Data</string>
+    <string name="export_data">Export Data</string>
+    <string name="note_on_failure">Request Note on Pinpoint Failure</string>
+    <string name="note_on_success">Request Note on Pinpoint Success</string>
+    <string name="exp_record_id">Record ID</string>
+    <string name="exp_date">Date</string>
+    <string name="exp_pinpoint_id">Pinpoint ID</string>
+    <string name="exp_pinpoint_title">Pinpoint Title</string>
+    <string name="exp_success">Success</string>
+    <string name="exp_team_id">Team ID</string>
+    <string name="exp_team_name">Team Name</string>
+    <string name="exp_team_leader_id">Team Leader ID</string>
+    <string name="exp_team_leader_name">Team Leader Name</string>
+    <string name="exp_team_leader_email">Team Leader Email</string>
+    <string name="exp_anonymous_id">Anonymous User ID</string>
+    <string name="exp_notes">Notes</string>
+
+    <string-array name="settings_options">
+        <!--<item>Upload a Profile Photo</item>-->
+        <item>Change Password</item>
+        <item>Contact Us</item>
+        <item>Privacy Policy</item>
+    </string-array>
+
+    <string-array name="pinpoint_query_intervals">
+        <item>Select One</item>
+        <item>Past 7 Days</item>
+        <item>Past 14 Days</item>
+        <item>Past 30 Days</item>
+        <item>Past 60 Days</item>
+        <item>Past 90 Days</item>
+        <item>Past 6 Mo.</item>
+        <item>Past 9 Mo.</item>
+        <item>Past Year</item>
+    </string-array>
+
+    <string-array name="multiple_team_pinpoint_export_intervals">
+        <item>Select One</item>
+        <item>Past 7 Days</item>
+        <item>Past 14 Days</item>
+        <item>Past 21 Days</item>
+        <item>Past Month</item>
+    </string-array>
+
+    <string name="title_activity_profile_photo" translatable="false">ProfilePhotoActivity</string>
+    <string name="title_activity_splash_screen" translatable="false">SplashScreenActivity</string>
+    <string name="title_activity_pinpoint_progress_graphing">Pinpoint Progress</string>
+    <string name="title_activity_change_password">Change Password</string>
+    <string name="title_activity_home" translatable="false">HomeActivity</string>
+    <string name="title_activity_deactivated" translatable="false">DeactivatedActivity</string>
+    <string name="unique_team_name">Enter a unique team name</string>
+
+</resources>

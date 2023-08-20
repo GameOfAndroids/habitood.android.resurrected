@@ -1,0 +1,464 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.astutusdesigns.habitood.main.MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Business CardView -->
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/homefragment_company_card"
+                    style="@style/CardViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:background="@color/colorPrimary" >
+
+<!--                            <ImageView-->
+<!--                                android:id="@+id/home_background_image"-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:scaleType="centerCrop"-->
+<!--                                android:src="@mipmap/father_son01"/>-->
+
+                            <TextView
+                                android:id="@+id/home_tagline"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginBottom="8dp"
+                                android:layout_marginStart="8dp"
+                                android:fontFamily="@font/roboto_light_italic"
+                                android:text="@string/tag_line"
+                                android:textColor="@android:color/white"
+                                android:textStyle="italic"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/textView10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginStart="8dp"
+                                android:fontFamily="@font/clicker_script"
+                                android:text="@string/app_name"
+                                android:textColor="@android:color/white"
+                                android:textSize="36sp"
+                                app:layout_constraintBottom_toTopOf="@+id/home_tagline"
+                                app:layout_constraintStart_toStartOf="parent"/>
+
+                            <ImageView
+                                android:id="@+id/imageView10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="-4dp"
+                                app:layout_constraintBottom_toBottomOf="@+id/textView10"
+                                app:layout_constraintStart_toEndOf="@+id/textView10"
+                                app:layout_constraintTop_toTopOf="@+id/textView10"
+                                app:srcCompat="@mipmap/ic_pinpoint"/>
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginTop="6dp"
+                            android:gravity="end"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <RelativeLayout
+                                android:id="@+id/homefragment_message_layout"
+                                android:layout_width="36dp"
+                                android:layout_height="36dp">
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_margin="8dp"
+                                    android:src="@mipmap/ic_message_white_24dp"
+                                    app:tint="@color/secondaryText"/>
+
+                                <TextView
+                                    android:id="@+id/new_message_count"
+                                    android:layout_width="16dp"
+                                    android:layout_height="16dp"
+                                    android:layout_alignParentEnd="true"
+                                    android:background="@drawable/red_updates_circle"
+                                    android:gravity="center"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="11sp"
+                                    android:textStyle="bold"
+                                    android:visibility="gone"
+                                    tools:text="3"/>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/homefragment_notification_layout"
+                                android:layout_width="36dp"
+                                android:layout_height="36dp">
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_margin="8dp"
+                                    android:src="@mipmap/ic_notifications_white_24dp"
+                                    app:tint="@color/secondaryText"/>
+
+                                <TextView
+                                    android:id="@+id/new_notification_count"
+                                    android:layout_width="16dp"
+                                    android:layout_height="16dp"
+                                    android:layout_alignParentEnd="true"
+                                    android:background="@drawable/red_updates_circle"
+                                    android:gravity="center"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="11sp"
+                                    android:textStyle="bold"
+                                    android:visibility="gone"
+                                    tools:text="99"/>
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/home_business_logo"
+                                android:layout_width="0dp"
+                                android:layout_height="70dp"
+                                android:layout_weight="1"
+                                android:paddingBottom="4dp"
+                                android:paddingEnd="8dp"
+                                android:paddingStart="8dp"
+                                android:paddingTop="4dp"
+                                android:scaleType="fitCenter"
+                                tools:layout_editor_absoluteX="24dp"
+                                tools:layout_editor_absoluteY="25dp" />
+
+                            <ImageView
+                                android:id="@+id/home_vendor_logo"
+                                android:layout_width="0dp"
+                                android:layout_height="70dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="20dp"
+                                android:layout_weight="1"
+                                android:paddingBottom="8dp"
+                                android:paddingTop="8dp"
+                                android:scaleType="fitCenter"
+                                android:src="@mipmap/organization_icon"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/home_business_textview"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/roboto"
+                            android:gravity="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:id="@+id/powered_by_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:fontFamily="@font/roboto_light_italic"
+                            android:text="@string/powered_by"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="11sp"
+                            android:textStyle="italic"
+                            tools:text="*Powered by"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/home_team_card"
+                    style="@style/CardViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:visibility="gone">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/my_team_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="2dp"
+                            android:fontFamily="@font/roboto_light"
+                            android:text="@string/active_team"
+                            android:textColor="@android:color/primary_text_light"
+                            android:textSize="12sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"/>
+
+                        <TextView
+                            android:id="@+id/home_team_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/my_team_label"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="12dp"
+                            android:fontFamily="@font/roboto"
+                            android:text="@string/teams_found"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="16sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/my_team_label"/>
+
+                        <Button
+                            android:id="@+id/select_active_team_button"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginStart="8dp"
+                            android:fontFamily="@font/roboto"
+                            android:text="@string/select_team"
+                            android:textColor="@color/colorAccent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/home_team_textview"/>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:id="@+id/home_pinpoint_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/active_team_pinpoints"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"/>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/home_pinpoints_rv"
+                        android:layout_width="match_parent"
+                        android:layout_height="290dp"
+                        android:paddingBottom="4dp"
+                        android:paddingTop="4dp"
+                        tools:listitem="@layout/layout_swipable_pinpoint_card_mini"/>
+                </LinearLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/home_admin_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="450dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:visibility="visible"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/admin_panel"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"/>
+
+                        <LinearLayout
+                            android:id="@+id/linearLayout4"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:orientation="vertical"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView19">
+
+                            <Button
+                                android:id="@+id/pinpointProgressBtn"
+                                style="@style/Widget.AppCompat.Button"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:backgroundTint="@android:color/white"
+                                android:drawablePadding="12dp"
+                                android:drawableStart="@drawable/ic_insert_chart_orange_24dp"
+                                android:gravity="center_vertical"
+                                android:maxLines="2"
+                                android:text="@string/pinpoint_progress"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="14sp"/>
+
+                            <Button
+                                android:id="@+id/teamsAdminBtn"
+                                style="@style/Widget.AppCompat.Button"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:backgroundTint="@android:color/white"
+                                android:drawablePadding="12dp"
+                                android:drawableStart="@drawable/ic_group_orange_24"
+                                android:gravity="center_vertical"
+                                android:maxLines="2"
+                                android:text="@string/teams_admin"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="14sp"/>
+
+                            <Button
+                                android:id="@+id/pinpointAdminBtn"
+                                style="@style/Widget.AppCompat.Button"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:backgroundTint="@android:color/white"
+                                android:drawablePadding="12dp"
+                                android:drawableStart="@drawable/ic_pinpoint_orange_24"
+                                android:gravity="center_vertical"
+                                android:maxLines="2"
+                                android:text="@string/pinpoint_admin"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="14sp"/>
+
+                            <Button
+                                android:id="@+id/bulkExportButton"
+                                style="@style/Widget.AppCompat.Button"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:backgroundTintMode="@color/colorAccent"
+                                android:drawablePadding="12dp"
+                                android:drawableStart="@drawable/ic_cloud_orange_24"
+                                android:elevation="4dp"
+                                android:maxLines="2"
+                                android:text="@string/bulk_export"
+                                android:textAlignment="textStart"
+                                android:textColor="@color/colorPrimary"
+                                android:visibility="visible"/>
+
+                            <Button
+                                android:id="@+id/userAdminBtn"
+                                style="@style/Widget.AppCompat.Button"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:backgroundTint="@android:color/white"
+                                android:drawablePadding="12dp"
+                                android:drawableStart="@drawable/ic_account_circle_orange_24"
+                                android:gravity="center_vertical"
+                                android:maxLines="2"
+                                android:text="@string/user_admin"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="14sp"/>
+
+                            <Button
+                                android:id="@+id/businessAdminBtn"
+                                style="@style/Widget.AppCompat.Button"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:backgroundTint="@android:color/white"
+                                android:drawablePadding="12dp"
+                                android:drawableStart="@drawable/ic_business_orange_24"
+                                android:gravity="center_vertical"
+                                android:maxLines="2"
+                                android:text="@string/business_admin"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="14sp"/>
+                        </LinearLayout>
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- Team Card View -->
+
+                <!-- Pinpoints Card View -->
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
