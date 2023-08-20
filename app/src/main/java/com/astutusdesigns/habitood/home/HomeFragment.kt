@@ -23,7 +23,6 @@ import com.astutusdesigns.habitood.notifications.NotificationsFragment
 import com.astutusdesigns.habitood.rv_adapters.SwipePinpointsAdapter
 //import com.astutusdesigns.habitood.sup_pinpoint_admin.SupPinpointAdmin
 //import com.astutusdesigns.habitood.sup_teams_admin.SupTeamsAdminFragment
-//import com.astutusdesigns.habitood.teams.TeamsFragment
 //import com.astutusdesigns.habitood.user_admin.UserAdminFragment
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
@@ -31,6 +30,7 @@ import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.astutusdesigns.habitood.*
+import com.astutusdesigns.habitood.teams.TeamsFragment
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -82,8 +82,7 @@ class HomeFragment : Fragment(), HomeContract.View, SwipePinpointsAdapter.Record
             findViewById<View>(R.id.homefragment_notification_layout)
                 .setOnClickListener { notificationTapped() }
             findViewById<Button>(R.id.select_active_team_button).setOnClickListener {
-                TODO("IMPLEMENT ME")
-//                mNavInterface?.navigateToFragment(TeamsFragment(), true)
+                mNavInterface?.navigateToFragment(TeamsFragment(), true)
             }
 
             // admin panel

@@ -3,12 +3,13 @@ package com.astutusdesigns.habitood.main
 import android.content.Context
 import androidx.fragment.app.Fragment
 import com.astutusdesigns.habitood.MenuScreens
-import com.astutusdesigns.habitood.authentication.LoginFragment
 import com.astutusdesigns.habitood.datamodels.FSUser
 import com.astutusdesigns.habitood.home.HomeFragment
 import com.astutusdesigns.habitood.models.FSTeamModel
 import com.astutusdesigns.habitood.models.FSUserModel
 import com.astutusdesigns.habitood.notifications.NotificationsFragment
+import com.astutusdesigns.habitood.team_admin.TeamAdminFragment
+import com.astutusdesigns.habitood.teams.TeamsFragment
 
 //import com.astutusdesigns.habitood.home.HomeFragment
 //import com.astutusdesigns.habitood.bulk_export.BulkExportFragment
@@ -55,7 +56,7 @@ class MainModel(private val contractPresenter: MainContract.Presenter) : MainCon
                     MenuScreens.Home -> HomeFragment.newInstance()
 //                    MenuScreens.CorkBoard -> CorkBoardListFragment()
                     MenuScreens.Notifications -> NotificationsFragment()
-//                    MenuScreens.Teams -> TeamsFragment()
+                    MenuScreens.Teams -> TeamsFragment()
 //                    MenuScreens.Pinpoints -> PinpointsFragment()
 //                    MenuScreens.PinpointAdmin -> {
 //                        if(user!!.rankLevel != 3)
@@ -68,21 +69,21 @@ class MainModel(private val contractPresenter: MainContract.Presenter) : MainCon
 ////                        else
 ////                            SupPinpointAdmin()
 //                    }
-//                    MenuScreens.TeamsAdmin -> {
-//                        when(user!!.rankLevel) {
-//                            2 -> TeamAdminFragment.newInstance(null)
-//                            3 -> SupTeamsAdminFragment()
-//                            else -> null
-//                        }
+                    MenuScreens.TeamsAdmin -> {
+                        when(user!!.rankLevel) {
+                            2 -> TeamAdminFragment.newInstance(null)
+                            3 -> TODO("implement me") //SupTeamsAdminFragment()
+                            else -> null
+                        }
 
-//                        when(user!!.rank) {
-//                            FSUser.Rank.CoreTeamLeader -> TeamAdminFragment.newInstance(null)
-//                            FSUser.Rank.Supervisor -> SupTeamsAdminFragment()
-//                            /*FSUser.Rank.Manager -> TeamsListFragment.newInstance()
-//                            FSUser.Rank.Admin -> TeamsListFragment.newInstance()*/
-//                            else -> null
-//                        }
-//                    }
+                        when(user!!.rankLevel) {
+                            2 -> TeamAdminFragment.newInstance(null)
+                            3 -> TODO("implement me") //SupTeamsAdminFragment()
+                            /*FSUser.Rank.Manager -> TeamsListFragment.newInstance()
+                            FSUser.Rank.Admin -> TeamsListFragment.newInstance()*/
+                            else -> null
+                        }
+                    }
 //                    MenuScreens.PinpointProgress -> PinpointQueryFragment()
 //                    MenuScreens.BulkExport -> BulkExportFragment()
 //                    MenuScreens.Settings -> SettingsFragment()

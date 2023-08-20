@@ -68,7 +68,7 @@
     <string name="team_added">Team Added!</string>
     <string name="team_exists_already">Error! Team name exists already. Choose another team name.</string>
     <string name="team_name">Team Name:</string>
-    <string name="core_team_leader_label">Core Team Leader:</string>
+    <string name="core_team_leader_label">Team Manager:</string>
     <string name="secondary_core_team_leader_label">Secondary Team Leader:</string>
     <string name="join">Join</string>
     <string name="search">Search</string>
@@ -87,7 +87,7 @@
     <string name="team_swipe_left">(swipe left to remove from team)</string>
     <string name="non_team_members">Non-Team Members:</string>
     <string name="team_swipe_right">(swipe right to add to team)</string>
-    <string name="cannot_remove_leader">Cannot remove assigned core team leader. Action undone.</string>
+    <string name="cannot_remove_leader">Cannot remove assigned team manager. Action undone.</string>
     <string name="set_active">Set Active</string>
     <string name="set_inactive">Set Inactive</string>
     <string name="error">Error</string>
@@ -95,7 +95,7 @@
     <string name="undef_params">Parameters were undefined. Please contact bugs@habitood.com if you see this.</string>
     <string name="no_users_selected">No users were selected for the operation.</string>
     <string name="insufficient_seats">Insufficient seats for operation. Please contact bugs@habitood.com if you see this.</string>
-    <string name="add_secondary_leader">You must add a secondary core team leader before you can create a team.</string>
+    <string name="add_secondary_leader">You must add a secondary team manager before you can create a team.</string>
     <string name="users_marked_active">Users were marked active.</string>
     <string name="users_count_marked_active">%s User(s) were marked active.</string>
     <string name="users_count_marked_inactive">%s User(s) were marked inactive.</string>
@@ -121,17 +121,17 @@
     <string name="undo">UNDO</string>
     <string name="no_active_team">You have not selected a team to be your "active" team. Please select a team, and its pinpoints will be displayed here.</string>
     <string name="no_active_team_caps">NO ACTIVE TEAM!</string>
-    <string name="no_pinpoints_assigned">The Core Team Leader has not assigned any pinpoints to this Team.</string>
+    <string name="no_pinpoints_assigned">The Team Manager has not assigned any pinpoints to this Team.</string>
     <string name="pinpoint_label">Pinpoint:</string>
     <string name="pinpoint_exists">Pinpoint with this title already exists.</string>
     <string name="swipe_left_forgot_pinpoint">Swipe left if pinpoint was overlooked.</string>
     <string name="swipe_right_completed_pinpoint">Swipe right if pinpoint was completed.</string>
-    <string name="pinpoint_add_to_team_fail">You must be the team leader or secondary team leader of a team to add pinpoints.</string>
+    <string name="pinpoint_add_to_team_fail">You must be the team leader of a team to add pinpoints.</string>
     <string name="notifications">Notifications</string>
     <string name="notifications_header">Swipe to dismiss a notification.</string>
     <string name="you_have_notifs">You have </string>
     <string name="notifs_waiting"> unread Notifications.</string>
-    <string name="frontline_supervisor_label">Frontline Supervisor:</string>
+    <string name="frontline_supervisor_label">Supervisor:</string>
     <string name="select_sup">Tap to select Supervisor</string>
     <string name="swipe_to_add_sup">Swipe Right to select a Supervisor.</string>
     <string name="user_admin">User Admin</string>
@@ -139,8 +139,8 @@
     <string name="refresh">Refresh</string>
     <string name="rank_not_set">Rank: N/A</string>
     <string name="not_set">Not Set</string>
-    <string name="frontline_personnel">Front-line Personnel</string>
-    <string name="core_team_leader">Core Team Leader</string>
+    <string name="frontline_personnel">Participants</string>
+    <string name="core_team_leader">Team Manager</string>
     <string name="supervisor">Supervisor</string>
     <string name="manager">Manager</string>
     <string name="action_unavailable">This action is unavailable without internet connectivity.</string>
@@ -153,14 +153,14 @@
     <string name="save">Save</string>
     <string name="cancel">Cancel</string>
     <string name="select_rank">Select User\'s Rank:</string>
-    <string name="cannot_change_team_leader_rank">This Core Team Leader is leading a Team. You must remove this person from leadership of the Team before you can change their rank. Team: </string>
+    <string name="cannot_change_team_leader_rank">This Team Manager is leading a Team. You must remove this person from leadership of the Team before you can change their rank. Team: </string>
     <string name="operation_failed">Operation Failed</string>
     <string name="open_team">Open Team</string>
-    <string name="primary_team_leader">Primary Core Team Leader:</string>
-    <string name="secondary_team_leader">Secondary Core Team Leader:</string>
+    <string name="primary_team_leader">Team Manager:</string>
+    <string name="secondary_team_leader">Secondary Team Manager:</string>
     <string name="user_removed">User removed from team.</string>
-    <string name="core_team_leaders">Core Team Leaders</string>
-    <string name="team_not_leading_team">The Team Admin section is only available to Core Team Leaders who are actively leading a team.</string>
+    <string name="core_team_leaders">Team Managers</string>
+    <string name="team_not_leading_team">The Team Admin section is only available to Team Managers who are actively leading a team.</string>
     <string name="title_activity_settings">Settings</string>
     <string name="title_activity_pinpoint_progress">Pinpoint Progress Activity</string>
     <string name="take_photo">Take Photo</string>
@@ -182,7 +182,7 @@
     <string name="no_notifications">You have no new notifications.</string>
     <string name="not_on_a_team">You are not currently assigned to a team.</string>
     <string name="add_team_members">Swipe to add Team Members</string>
-    <string name="swipe_to_select">Swipe right to select core team leader.</string>
+    <string name="swipe_to_select">Swipe right to select team manager.</string>
     <string name="no_messages">You have no Cork Board notes at this time.</string>
     <string name="frontline_sups">Frontline Supervisors</string>
     <string name="select_photo">Select a Photo</string>
@@ -206,9 +206,9 @@
     <string name="pinpoint_percentages">Pinpoint Success Percentages</string>
     <string name="not_enough_seats">There are not enough available active seats for this action. Please contact your Habitood administer regarding this error.</string>
     <string name="active_users_error">Active Users Error</string>
-    <string name="deactivate_core_team_leader_error">Cannot deactivate a Core Team Leader! This Core Team Leader is currently leading a team.</string>
+    <string name="deactivate_core_team_leader_error">Cannot deactivate a Team Manager! This Team Manager is currently leading a team.</string>
     <string name="delete_team">Delete Team</string>
-    <string name="delete_team_explanation">Deleting this team will remove the Core Team Leaders and all users on the team. Additionally the team name will be consumed and unusable in the future. This action cannot be undone. Are you sure?</string>
+    <string name="delete_team_explanation">Deleting this team will remove the Team Manager and all users on the team. Additionally the team name will be consumed and unusable in the future. This action cannot be undone. Are you sure?</string>
     <string name="delete">Delete</string>
     <string name="deleted">Deleted</string>
     <string name="show_deleted_teams">Show deleted teams?</string>
@@ -247,12 +247,12 @@
     <string name="user_is_inactive">This is not an active user. Active users cannot be added to a team. Operation aborted.</string>
     <string name="not_leading_team">You are not leading any team.</string>
     <string name="name_concat" translatable="false">%s %s</string>
-    <string name="swipe_to_select_ctl">Swipe to select Core Team Leader</string>
+    <string name="swipe_to_select_ctl">Swipe to select Team Manager</string>
     <string name="team_name_empty_error">Team name may not be empty.</string>
-    <string name="team_leader">Team Leader:</string>
+    <string name="team_leader">Team Manager:</string>
     <string name="attempt_try_again">Download attempt failed. Try again?</string>
     <string name="try_again">Try Again</string>
-    <string name="pinpoint_explanation">This is where Team Leaders manage their team\'s Pinpoint objectives.</string>
+    <string name="pinpoint_explanation">This is where Team Managers manage their team\'s Pinpoint objectives.</string>
     <string name="pinpoint_swipe_left">Swipe left to remove Pinpoint from Team</string>
     <string name="team_leading_template">Team Leading: %s</string>
     <string name="add_pinpoints_to_team">Swipe right to add Pinpoint to Team</string>
@@ -331,7 +331,7 @@
     <string name="search_found_no_users">No users were found.</string>
     <string name="set_as_admin">Set as Business Admin</string>
     <string name="change_rank_leading_team_err_title">Leading Team Error</string>
-    <string name="change_rank_leading_team_msg">This user is currently leading a team. You cannot change their rank until they have been replaced with a different team leader.</string>
+    <string name="change_rank_leading_team_msg">This user is currently managing a team. You cannot change their rank until they have been replaced with a different team manager.</string>
     <string name="change_rank_success">Successfully changed rank!</string>
     <string name="invalid_pinpoint_title">Invalid Pinpoint Title</string>
     <string name="invalid_pinpoint_title_msg">Pinpoint titles may not contain the following characters: |\?*&lt;":>+[]/',.</string>
@@ -368,9 +368,9 @@
     <string name="exp_success">Success</string>
     <string name="exp_team_id">Team ID</string>
     <string name="exp_team_name">Team Name</string>
-    <string name="exp_team_leader_id">Team Leader ID</string>
-    <string name="exp_team_leader_name">Team Leader Name</string>
-    <string name="exp_team_leader_email">Team Leader Email</string>
+    <string name="exp_team_leader_id">Team Manager ID</string>
+    <string name="exp_team_leader_name">Team Manager Name</string>
+    <string name="exp_team_leader_email">Team Manager Email</string>
     <string name="exp_anonymous_id">Anonymous User ID</string>
     <string name="exp_notes">Notes</string>
 
